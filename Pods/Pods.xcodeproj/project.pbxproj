@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B77FFDE1B48B7FD00CC6401 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B77FDCB1B48B64D00CC6401 /* AudioToolbox.framework */; };
+		BCDA30B2242F5CA991F552E5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09BEE794F4E1DB82F9848 /* Pods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E903C275B9D2262FC10A5C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		206487D4A74953040F4307D9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		3B77FDC61B48B64D00CC6401 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDC71B48B64D00CC6401 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDC81B48B64D00CC6401 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDC91B48B64D00CC6401 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDCA1B48B64D00CC6401 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDCB1B48B64D00CC6401 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDCC1B48B64D00CC6401 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AudioUnit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDCD1B48B64D00CC6401 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDCE1B48B64D00CC6401 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDCF1B48B64D00CC6401 /* bundle1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = bundle1.o; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/bundle1.o; sourceTree = DEVELOPER_DIR; };
+		3B77FDD01B48B64D00CC6401 /* CarrierBundleUtilities.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CarrierBundleUtilities.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/CarrierBundleUtilities.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDD11B48B64D00CC6401 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD21B48B64D00CC6401 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD31B48B64D00CC6401 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD41B48B64D00CC6401 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD51B48B64D00CC6401 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD61B48B64D00CC6401 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD71B48B64D00CC6401 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD81B48B64D00CC6401 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDD91B48B64D00CC6401 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDDA1B48B64D00CC6401 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDDB1B48B64D00CC6401 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDDC1B48B64D00CC6401 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreMIDI.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDDD1B48B64D00CC6401 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDDE1B48B64D00CC6401 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDDF1B48B64D00CC6401 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE01B48B64D00CC6401 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE11B48B64D00CC6401 /* crt1.3.1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = crt1.3.1.o; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/crt1.3.1.o; sourceTree = DEVELOPER_DIR; };
+		3B77FDE21B48B64D00CC6401 /* crt1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = crt1.o; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/crt1.o; sourceTree = DEVELOPER_DIR; };
+		3B77FDE31B48B64D00CC6401 /* dylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.o; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/dylib1.o; sourceTree = DEVELOPER_DIR; };
+		3B77FDE41B48B64D00CC6401 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE51B48B64D00CC6401 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE61B48B64D00CC6401 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE71B48B64D00CC6401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE81B48B64D00CC6401 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDE91B48B64D00CC6401 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDEA1B48B64D00CC6401 /* gcrt1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = gcrt1.o; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/gcrt1.o; sourceTree = DEVELOPER_DIR; };
+		3B77FDEB1B48B64D00CC6401 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDEC1B48B64D00CC6401 /* GSS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSS.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/GSS.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDED1B48B64D00CC6401 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDEE1B48B64D00CC6401 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDEF1B48B64D00CC6401 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/iAd.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDF01B48B64D00CC6401 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDF11B48B64D00CC6401 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FDF21B48B64D00CC6401 /* lazydylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = lazydylib1.o; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/lazydylib1.o; sourceTree = DEVELOPER_DIR; };
+		3B77FDF31B48B64D00CC6401 /* libAccessibility.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAccessibility.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAccessibility.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDF41B48B64D00CC6401 /* libacmobileshim.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libacmobileshim.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libacmobileshim.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDF51B48B64D00CC6401 /* libafc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libafc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libafc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDF61B48B64D00CC6401 /* libamsupport.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libamsupport.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libamsupport.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDF71B48B64D00CC6401 /* libAppPatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAppPatch.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAppPatch.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDF81B48B64D00CC6401 /* libarchive.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libarchive.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libarchive.2.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDF91B48B64D00CC6401 /* libarchive.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libarchive.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libarchive.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDFA1B48B64D00CC6401 /* libassertion_extension.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassertion_extension.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libassertion_extension.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDFB1B48B64D00CC6401 /* libassertion_launchd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassertion_launchd.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libassertion_launchd.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDFC1B48B64D00CC6401 /* libauthinstall.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libauthinstall.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libauthinstall.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDFD1B48B64D00CC6401 /* libAWDProtobuf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobuf.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobuf.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDFE1B48B64D00CC6401 /* libAWDProtobufAirPlay.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufAirPlay.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufAirPlay.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FDFF1B48B64D00CC6401 /* libAWDProtobufAPSD.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufAPSD.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufAPSD.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE001B48B64D00CC6401 /* libAWDProtobufBaseband.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufBaseband.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufBaseband.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE011B48B64D00CC6401 /* libAWDProtobufBluetooth.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufBluetooth.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufBluetooth.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE021B48B64D00CC6401 /* libAWDProtobufCallHistory.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufCallHistory.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufCallHistory.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE031B48B64D00CC6401 /* libAWDProtobufCaptive.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufCaptive.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufCaptive.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE041B48B64D00CC6401 /* libAWDProtobufCATM.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufCATM.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufCATM.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE051B48B64D00CC6401 /* libAWDProtobufEasyConfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufEasyConfig.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufEasyConfig.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE061B48B64D00CC6401 /* libAWDProtobufFacetime.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufFacetime.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufFacetime.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE071B48B64D00CC6401 /* libAWDProtobufFacetimeiMessage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufFacetimeiMessage.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufFacetimeiMessage.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE081B48B64D00CC6401 /* libAWDProtobufGCK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufGCK.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufGCK.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE091B48B64D00CC6401 /* libAWDProtobufHomeKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufHomeKit.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufHomeKit.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE0A1B48B64D00CC6401 /* libAWDProtobufIDS.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufIDS.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufIDS.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE0B1B48B64D00CC6401 /* libAWDProtobufITester.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufITester.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufITester.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE0C1B48B64D00CC6401 /* libAWDProtobufLibnetcore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufLibnetcore.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufLibnetcore.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE0D1B48B64D00CC6401 /* libAWDProtobufLocation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufLocation.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufLocation.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE0E1B48B64D00CC6401 /* libAWDProtobufMMCS.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufMMCS.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufMMCS.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE0F1B48B64D00CC6401 /* libAWDProtobufNFC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufNFC.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufNFC.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE101B48B64D00CC6401 /* libAWDProtobufPower.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufPower.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufPower.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE111B48B64D00CC6401 /* libAWDProtobufSiri.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufSiri.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufSiri.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE121B48B64D00CC6401 /* libAWDProtobufTelephony.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufTelephony.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufTelephony.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE131B48B64D00CC6401 /* libAWDProtobufVPN.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufVPN.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufVPN.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE141B48B64D00CC6401 /* libAWDProtobufWifi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufWifi.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufWifi.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE151B48B64D00CC6401 /* libAWDProtobufWifiCalling.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufWifiCalling.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufWifiCalling.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE161B48B64D00CC6401 /* libAWDProtobufWirelessProximity.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufWirelessProximity.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufWirelessProximity.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE171B48B64D00CC6401 /* libAWDProtobufWRM.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufWRM.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDProtobufWRM.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE181B48B64D00CC6401 /* libAWDSupport.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDSupport.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDSupport.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE191B48B64D00CC6401 /* libAWDSupportConfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDSupportConfig.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDSupportConfig.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE1A1B48B64D00CC6401 /* libAWDSupportFramework.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDSupportFramework.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDSupportFramework.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE1B1B48B64D00CC6401 /* libAWDSupportInfo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDSupportInfo.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAWDSupportInfo.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE1C1B48B64D00CC6401 /* libAXSafeCategoryBundle.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAXSafeCategoryBundle.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAXSafeCategoryBundle.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE1D1B48B64D00CC6401 /* libAXSpeechManager.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAXSpeechManager.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libAXSpeechManager.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE1E1B48B64D00CC6401 /* libBasebandManager.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBasebandManager.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libBasebandManager.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE1F1B48B64D00CC6401 /* libBasebandUSB.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBasebandUSB.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libBasebandUSB.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE201B48B64D00CC6401 /* libBBUpdaterDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBBUpdaterDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libBBUpdaterDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE211B48B64D00CC6401 /* libbsm.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbsm.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libbsm.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE221B48B64D00CC6401 /* libbsm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbsm.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libbsm.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE231B48B64D00CC6401 /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libbz2.1.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE241B48B64D00CC6401 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libbz2.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE251B48B64D00CC6401 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libc++.1.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE261B48B64D00CC6401 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libc++.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE271B48B64D00CC6401 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libc++abi.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE281B48B64D00CC6401 /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE291B48B64D00CC6401 /* libcache.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcache.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libcache.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE2A1B48B64D00CC6401 /* libcharset.1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.1.0.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libcharset.1.0.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE2B1B48B64D00CC6401 /* libcharset.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.1.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libcharset.1.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE2C1B48B64D00CC6401 /* libcharset.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libcharset.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE2D1B48B64D00CC6401 /* libcmph.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcmph.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libcmph.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE2E1B48B64D00CC6401 /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libcommonCrypto.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE2F1B48B64D00CC6401 /* libcompiler_rt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcompiler_rt.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libcompiler_rt.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE301B48B64D00CC6401 /* libcopyfile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcopyfile.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libcopyfile.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE311B48B64D00CC6401 /* libcorecrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcorecrypto.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libcorecrypto.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE321B48B64E00CC6401 /* libCRFSuite.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCRFSuite.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libCRFSuite.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE331B48B64E00CC6401 /* libCRFSuite0.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCRFSuite0.12.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libCRFSuite0.12.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE341B48B64E00CC6401 /* libCTWakeCommandParserDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCTWakeCommandParserDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libCTWakeCommandParserDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE351B48B64E00CC6401 /* libcupolicy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcupolicy.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libcupolicy.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE361B48B64E00CC6401 /* libcurses.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurses.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libcurses.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE371B48B64E00CC6401 /* libdbm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdbm.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libdbm.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE381B48B64E00CC6401 /* libDHCPServer.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDHCPServer.A.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libDHCPServer.A.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE391B48B64E00CC6401 /* libDHCPServer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDHCPServer.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libDHCPServer.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE3A1B48B64E00CC6401 /* libdispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdispatch.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/introspection/libdispatch.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE3B1B48B64E00CC6401 /* libdispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdispatch.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libdispatch.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE3C1B48B64E00CC6401 /* libdl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdl.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libdl.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE3D1B48B64E00CC6401 /* libdns_services.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdns_services.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libdns_services.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE3E1B48B64E00CC6401 /* libdns_services_mdns.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdns_services_mdns.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libdns_services_mdns.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE3F1B48B64E00CC6401 /* libdyld.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdyld.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libdyld.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE401B48B64E00CC6401 /* libedit.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libedit.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libedit.2.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE411B48B64E00CC6401 /* libedit.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libedit.3.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libedit.3.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE421B48B64E00CC6401 /* libedit.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libedit.3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libedit.3.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE431B48B64E00CC6401 /* libedit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libedit.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libedit.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE441B48B64E00CC6401 /* libexslt.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexslt.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libexslt.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE451B48B64E00CC6401 /* libexslt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexslt.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libexslt.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE461B48B64E00CC6401 /* libextension.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libextension.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libextension.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE471B48B64E00CC6401 /* libform.5.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libform.5.4.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libform.5.4.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE481B48B64E00CC6401 /* libform.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libform.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libform.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE491B48B64E00CC6401 /* libgcc_s.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgcc_s.1.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libgcc_s.1.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE4A1B48B64E00CC6401 /* libgermantok.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgermantok.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libgermantok.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE4B1B48B64E00CC6401 /* libGestureServer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGestureServer.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libGestureServer.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE4C1B48B64E00CC6401 /* libgll.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgll.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libgll.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE4D1B48B64E00CC6401 /* libH5Dynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libH5Dynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libH5Dynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE4E1B48B64E00CC6401 /* libheimdal-asn1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libheimdal-asn1.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libheimdal-asn1.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE4F1B48B64E00CC6401 /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.2.4.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE501B48B64E00CC6401 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.2.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE511B48B64E00CC6401 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE521B48B64E00CC6401 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libicucore.A.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE531B48B64E00CC6401 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libicucore.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE541B48B64E00CC6401 /* libinfo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libinfo.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libinfo.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE551B48B64E00CC6401 /* libIOAccessoryManager.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIOAccessoryManager.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libIOAccessoryManager.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE561B48B64E00CC6401 /* libipconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libipconfig.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libipconfig.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE571B48B64E00CC6401 /* libipsec.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libipsec.A.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libipsec.A.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE581B48B64E00CC6401 /* libipsec.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libipsec.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libipsec.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE591B48B64E00CC6401 /* libkeymgr.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libkeymgr.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libkeymgr.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE5A1B48B64E00CC6401 /* libktrace.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libktrace.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libktrace.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE5B1B48B64E00CC6401 /* liblangid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblangid.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/liblangid.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE5C1B48B64E00CC6401 /* liblaunch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblaunch.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/liblaunch.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE5D1B48B64E00CC6401 /* liblockdown.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblockdown.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/liblockdown.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE5E1B48B64E00CC6401 /* liblzma.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.5.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/liblzma.5.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE5F1B48B64E00CC6401 /* liblzma.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/liblzma.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE601B48B64E00CC6401 /* libm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libm.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libm.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE611B48B64E00CC6401 /* libmacho.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmacho.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libmacho.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE621B48B64E00CC6401 /* libMatch.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMatch.1.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libMatch.1.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE631B48B64E00CC6401 /* libMatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMatch.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libMatch.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE641B48B64E00CC6401 /* libmav_ipc_router_dynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmav_ipc_router_dynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libmav_ipc_router_dynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE651B48B64E00CC6401 /* libmecab_em.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmecab_em.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libmecab_em.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE661B48B64E00CC6401 /* libmecabra.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmecabra.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libmecabra.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE671B48B64E00CC6401 /* libmis.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmis.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libmis.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE681B48B64E00CC6401 /* libMobileCheckpoint.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMobileCheckpoint.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libMobileCheckpoint.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE691B48B64E00CC6401 /* libMobileGestalt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMobileGestalt.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libMobileGestalt.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE6A1B48B64E00CC6401 /* libMobileGestaltExtensions.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMobileGestaltExtensions.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libMobileGestaltExtensions.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE6B1B48B64E00CC6401 /* libncurses.5.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libncurses.5.4.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libncurses.5.4.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE6C1B48B64E00CC6401 /* libncurses.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libncurses.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libncurses.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE6D1B48B64E00CC6401 /* libnfshared.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnfshared.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libnfshared.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE6E1B48B64E00CC6401 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libobjc.A.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE6F1B48B64E00CC6401 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libobjc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE701B48B64E00CC6401 /* libomadm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libomadm.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libomadm.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE711B48B64E00CC6401 /* libpoll.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpoll.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libpoll.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE721B48B64E00CC6401 /* libproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libproc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libproc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE731B48B64E00CC6401 /* libprotobuf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprotobuf.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libprotobuf.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE741B48B64E00CC6401 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libpthread.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE751B48B64E00CC6401 /* libQLCharts.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libQLCharts.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libQLCharts.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE761B48B64E00CC6401 /* libremovefile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libremovefile.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libremovefile.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE771B48B64E00CC6401 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libresolv.9.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE781B48B64E00CC6401 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libresolv.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE791B48B64E00CC6401 /* librpcsvc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librpcsvc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/librpcsvc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE7A1B48B64E00CC6401 /* libsandbox.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsandbox.1.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libsandbox.1.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE7B1B48B64E00CC6401 /* libsandbox.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsandbox.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libsandbox.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE7C1B48B64E00CC6401 /* libsp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsp.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libsp.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE7D1B48B64E00CC6401 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libsqlite3.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE7E1B48B64E00CC6401 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE7F1B48B64E00CC6401 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libstdc++.6.0.9.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE801B48B64E00CC6401 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE811B48B64E00CC6401 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libstdc++.dylib"; sourceTree = DEVELOPER_DIR; };
+		3B77FE821B48B64E00CC6401 /* libSystem.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.B.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libSystem.B.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE831B48B64E00CC6401 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libSystem.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE841B48B64E00CC6401 /* libsystem_asl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_asl.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_asl.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE851B48B64E00CC6401 /* libsystem_blocks.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_blocks.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_blocks.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE861B48B64E00CC6401 /* libsystem_c.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_c.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_c.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE871B48B64E00CC6401 /* libsystem_configuration.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_configuration.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_configuration.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE881B48B64E00CC6401 /* libsystem_coreservices.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_coreservices.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_coreservices.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE891B48B64E00CC6401 /* libsystem_coretls.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_coretls.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_coretls.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE8A1B48B64E00CC6401 /* libsystem_dnssd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_dnssd.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_dnssd.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE8B1B48B64E00CC6401 /* libsystem_info.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_info.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_info.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE8C1B48B64E00CC6401 /* libsystem_kernel.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_kernel.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_kernel.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE8D1B48B64E00CC6401 /* libsystem_m.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_m.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_m.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE8E1B48B64E00CC6401 /* libsystem_malloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_malloc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_malloc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE8F1B48B64E00CC6401 /* libsystem_network.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_network.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_network.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE901B48B64E00CC6401 /* libsystem_networkextension.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_networkextension.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_networkextension.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE911B48B64E00CC6401 /* libsystem_notify.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_notify.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_notify.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE921B48B64E00CC6401 /* libsystem_platform.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_platform.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_platform.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE931B48B64E00CC6401 /* libsystem_pthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_pthread.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_pthread.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE941B48B64E00CC6401 /* libsystem_sandbox.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_sandbox.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_sandbox.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE951B48B64E00CC6401 /* libsystem_stats.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_stats.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_stats.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE961B48B64E00CC6401 /* libsystem_trace.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_trace.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libsystem_trace.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE971B48B64E00CC6401 /* libTelephonyBasebandBulkUSBDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyBasebandBulkUSBDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libTelephonyBasebandBulkUSBDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE981B48B64E00CC6401 /* libTelephonyBasebandDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyBasebandDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libTelephonyBasebandDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE991B48B64E00CC6401 /* libTelephonyDebugDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyDebugDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libTelephonyDebugDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE9A1B48B64E00CC6401 /* libTelephonyIOKitDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyIOKitDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libTelephonyIOKitDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE9B1B48B64E00CC6401 /* libTelephonyUSBDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyUSBDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libTelephonyUSBDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE9C1B48B64E00CC6401 /* libTelephonyUtilDynamic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libTelephonyUtilDynamic.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libTelephonyUtilDynamic.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE9D1B48B64E00CC6401 /* libThaiTokenizer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libThaiTokenizer.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libThaiTokenizer.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE9E1B48B64E00CC6401 /* libtidy.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtidy.A.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libtidy.A.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FE9F1B48B64E00CC6401 /* libtidy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtidy.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libtidy.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA01B48B64E00CC6401 /* libType2Streamer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libType2Streamer.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libType2Streamer.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA11B48B64E00CC6401 /* libtzupdate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtzupdate.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libtzupdate.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA21B48B64E00CC6401 /* libunwind.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libunwind.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libunwind.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA31B48B64E00CC6401 /* libutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libutil.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libutil.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA41B48B64E00CC6401 /* libutil1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libutil1.0.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libutil1.0.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA51B48B64E00CC6401 /* libWAPI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libWAPI.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libWAPI.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA61B48B64E00CC6401 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libxml2.2.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA71B48B64E00CC6401 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA81B48B64E00CC6401 /* libxpc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxpc.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/system/libxpc.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEA91B48B64E00CC6401 /* libxslt.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxslt.1.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libxslt.1.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEAA1B48B64E00CC6401 /* libxslt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxslt.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libxslt.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEAB1B48B64E00CC6401 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libz.1.1.3.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEAC1B48B64E00CC6401 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libz.1.2.5.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEAD1B48B64E00CC6401 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libz.1.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEAE1B48B64E00CC6401 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		3B77FEAF1B48B64E00CC6401 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB01B48B64E00CC6401 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB11B48B64E00CC6401 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MediaAccessibility.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB21B48B64E00CC6401 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB31B48B64F00CC6401 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MediaToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB41B48B64F00CC6401 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB51B48B64F00CC6401 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB61B48B64F00CC6401 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB71B48B64F00CC6401 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB81B48B64F00CC6401 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEB91B48B64F00CC6401 /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/NewsstandKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEBA1B48B64F00CC6401 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/NotificationCenter.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEBB1B48B64F00CC6401 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEBC1B48B64F00CC6401 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEBD1B48B64F00CC6401 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/PassKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEBE1B48B64F00CC6401 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEBF1B48B64F00CC6401 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/PhotosUI.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC01B48B64F00CC6401 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/PushKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC11B48B64F00CC6401 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC21B48B64F00CC6401 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC31B48B64F00CC6401 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC41B48B64F00CC6401 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC51B48B64F00CC6401 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC61B48B64F00CC6401 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC71B48B64F00CC6401 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC81B48B64F00CC6401 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FEC91B48B64F00CC6401 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FECA1B48B64F00CC6401 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FECB1B48B64F00CC6401 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FECC1B48B64F00CC6401 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FECD1B48B64F00CC6401 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FECE1B48B64F00CC6401 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FECF1B48B64F00CC6401 /* DTPerformanceSession.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTPerformanceSession.framework; path = Library/Frameworks/DTPerformanceSession.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FED01B48B64F00CC6401 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
+		3B77FED11B48B64F00CC6401 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		52CC2308627334A79942D7CD /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		546DBC3D2B127B960AC06C67 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		54A38E4FD0DB48E98F31BE63 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		73C09BEE794F4E1DB82F9848 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		92464227B61E57D8FFDDEA4C /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		9BA0082C2349A05C883FF88A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB589287CC6F0340170F432 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA0ED07D94BE969DC9611646 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B79C81DD72E1B78CF3707AEF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0AF57EC6DAA99CA860EB64A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A975D1CFF70021AF314556C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B77FFDE1B48B7FD00CC6401 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E567059FC7A14D3137928FC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA0ED07D94BE969DC9611646 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		37A709A8CCB9DBB805204F06 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				A2F9C0AC0AB3C73D69D74962 /* Frameworks */,
+				AD283FA6482A1F10FDD1475A /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		56C9BCA291D8D0F8117DC597 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A311FE0A527C4883A7D5D66 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BF981AD8C865C212F468A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA0082C2349A05C883FF88A /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A311FE0A527C4883A7D5D66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BB589287CC6F0340170F432 /* Pods-acknowledgements.markdown */,
+				54A38E4FD0DB48E98F31BE63 /* Pods-acknowledgements.plist */,
+				73C09BEE794F4E1DB82F9848 /* Pods-dummy.m */,
+				546DBC3D2B127B960AC06C67 /* Pods-environment.h */,
+				52CC2308627334A79942D7CD /* Pods-resources.sh */,
+				1E903C275B9D2262FC10A5C4 /* Pods.debug.xcconfig */,
+				E0AF57EC6DAA99CA860EB64A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		86E9F1F0EA6DC2C12B59F65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A709A8CCB9DBB805204F06 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2F9C0AC0AB3C73D69D74962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206487D4A74953040F4307D9 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD283FA6482A1F10FDD1475A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92464227B61E57D8FFDDEA4C /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CB4A909AE3AA6D704D0F3B3F = {
+			isa = PBXGroup;
+			children = (
+				B79C81DD72E1B78CF3707AEF /* Podfile */,
+				D3CF0BEC273884AC2B681249 /* Frameworks */,
+				86E9F1F0EA6DC2C12B59F65E /* Pods */,
+				5BF981AD8C865C212F468A3A /* Products */,
+				56C9BCA291D8D0F8117DC597 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CF0BEC273884AC2B681249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B77FDC61B48B64D00CC6401 /* Accelerate.framework */,
+				3B77FDC71B48B64D00CC6401 /* Accounts.framework */,
+				3B77FDC81B48B64D00CC6401 /* AddressBookUI.framework */,
+				3B77FDC91B48B64D00CC6401 /* AdSupport.framework */,
+				3B77FDCA1B48B64D00CC6401 /* AssetsLibrary.framework */,
+				3B77FDCB1B48B64D00CC6401 /* AudioToolbox.framework */,
+				3B77FDCC1B48B64D00CC6401 /* AudioUnit.framework */,
+				3B77FDCD1B48B64D00CC6401 /* AVFoundation.framework */,
+				3B77FDCE1B48B64D00CC6401 /* AVKit.framework */,
+				3B77FDCF1B48B64D00CC6401 /* bundle1.o */,
+				3B77FDD01B48B64D00CC6401 /* CarrierBundleUtilities.dylib */,
+				3B77FDD11B48B64D00CC6401 /* CFNetwork.framework */,
+				3B77FDD21B48B64D00CC6401 /* CloudKit.framework */,
+				3B77FDD31B48B64D00CC6401 /* CoreAudio.framework */,
+				3B77FDD41B48B64D00CC6401 /* CoreAudioKit.framework */,
+				3B77FDD51B48B64D00CC6401 /* CoreBluetooth.framework */,
+				3B77FDD61B48B64D00CC6401 /* CoreData.framework */,
+				3B77FDD71B48B64D00CC6401 /* CoreFoundation.framework */,
+				3B77FDD81B48B64D00CC6401 /* CoreGraphics.framework */,
+				3B77FDD91B48B64D00CC6401 /* CoreImage.framework */,
+				3B77FDDA1B48B64D00CC6401 /* CoreLocation.framework */,
+				3B77FDDB1B48B64D00CC6401 /* CoreMedia.framework */,
+				3B77FDDC1B48B64D00CC6401 /* CoreMIDI.framework */,
+				3B77FDDD1B48B64D00CC6401 /* CoreMotion.framework */,
+				3B77FDDE1B48B64D00CC6401 /* CoreTelephony.framework */,
+				3B77FDDF1B48B64D00CC6401 /* CoreText.framework */,
+				3B77FDE01B48B64D00CC6401 /* CoreVideo.framework */,
+				3B77FDE11B48B64D00CC6401 /* crt1.3.1.o */,
+				3B77FDE21B48B64D00CC6401 /* crt1.o */,
+				3B77FDE31B48B64D00CC6401 /* dylib1.o */,
+				3B77FDE41B48B64D00CC6401 /* EventKit.framework */,
+				3B77FDE51B48B64D00CC6401 /* EventKitUI.framework */,
+				3B77FDE61B48B64D00CC6401 /* ExternalAccessory.framework */,
+				3B77FDE71B48B64D00CC6401 /* Foundation.framework */,
+				3B77FDE81B48B64D00CC6401 /* GameController.framework */,
+				3B77FDE91B48B64D00CC6401 /* GameKit.framework */,
+				3B77FDEA1B48B64D00CC6401 /* gcrt1.o */,
+				3B77FDEB1B48B64D00CC6401 /* GLKit.framework */,
+				3B77FDEC1B48B64D00CC6401 /* GSS.framework */,
+				3B77FDED1B48B64D00CC6401 /* HealthKit.framework */,
+				3B77FDEE1B48B64D00CC6401 /* HomeKit.framework */,
+				3B77FDEF1B48B64D00CC6401 /* iAd.framework */,
+				3B77FDF01B48B64D00CC6401 /* ImageIO.framework */,
+				3B77FDF11B48B64D00CC6401 /* JavaScriptCore.framework */,
+				3B77FDF21B48B64D00CC6401 /* lazydylib1.o */,
+				3B77FDF31B48B64D00CC6401 /* libAccessibility.dylib */,
+				3B77FDF41B48B64D00CC6401 /* libacmobileshim.dylib */,
+				3B77FDF51B48B64D00CC6401 /* libafc.dylib */,
+				3B77FDF61B48B64D00CC6401 /* libamsupport.dylib */,
+				3B77FDF71B48B64D00CC6401 /* libAppPatch.dylib */,
+				3B77FDF81B48B64D00CC6401 /* libarchive.2.dylib */,
+				3B77FDF91B48B64D00CC6401 /* libarchive.dylib */,
+				3B77FDFA1B48B64D00CC6401 /* libassertion_extension.dylib */,
+				3B77FDFB1B48B64D00CC6401 /* libassertion_launchd.dylib */,
+				3B77FDFC1B48B64D00CC6401 /* libauthinstall.dylib */,
+				3B77FDFD1B48B64D00CC6401 /* libAWDProtobuf.dylib */,
+				3B77FDFE1B48B64D00CC6401 /* libAWDProtobufAirPlay.dylib */,
+				3B77FDFF1B48B64D00CC6401 /* libAWDProtobufAPSD.dylib */,
+				3B77FE001B48B64D00CC6401 /* libAWDProtobufBaseband.dylib */,
+				3B77FE011B48B64D00CC6401 /* libAWDProtobufBluetooth.dylib */,
+				3B77FE021B48B64D00CC6401 /* libAWDProtobufCallHistory.dylib */,
+				3B77FE031B48B64D00CC6401 /* libAWDProtobufCaptive.dylib */,
+				3B77FE041B48B64D00CC6401 /* libAWDProtobufCATM.dylib */,
+				3B77FE051B48B64D00CC6401 /* libAWDProtobufEasyConfig.dylib */,
+				3B77FE061B48B64D00CC6401 /* libAWDProtobufFacetime.dylib */,
+				3B77FE071B48B64D00CC6401 /* libAWDProtobufFacetimeiMessage.dylib */,
+				3B77FE081B48B64D00CC6401 /* libAWDProtobufGCK.dylib */,
+				3B77FE091B48B64D00CC6401 /* libAWDProtobufHomeKit.dylib */,
+				3B77FE0A1B48B64D00CC6401 /* libAWDProtobufIDS.dylib */,
+				3B77FE0B1B48B64D00CC6401 /* libAWDProtobufITester.dylib */,
+				3B77FE0C1B48B64D00CC6401 /* libAWDProtobufLibnetcore.dylib */,
+				3B77FE0D1B48B64D00CC6401 /* libAWDProtobufLocation.dylib */,
+				3B77FE0E1B48B64D00CC6401 /* libAWDProtobufMMCS.dylib */,
+				3B77FE0F1B48B64D00CC6401 /* libAWDProtobufNFC.dylib */,
+				3B77FE101B48B64D00CC6401 /* libAWDProtobufPower.dylib */,
+				3B77FE111B48B64D00CC6401 /* libAWDProtobufSiri.dylib */,
+				3B77FE121B48B64D00CC6401 /* libAWDProtobufTelephony.dylib */,
+				3B77FE131B48B64D00CC6401 /* libAWDProtobufVPN.dylib */,
+				3B77FE141B48B64D00CC6401 /* libAWDProtobufWifi.dylib */,
+				3B77FE151B48B64D00CC6401 /* libAWDProtobufWifiCalling.dylib */,
+				3B77FE161B48B64D00CC6401 /* libAWDProtobufWirelessProximity.dylib */,
+				3B77FE171B48B64D00CC6401 /* libAWDProtobufWRM.dylib */,
+				3B77FE181B48B64D00CC6401 /* libAWDSupport.dylib */,
+				3B77FE191B48B64D00CC6401 /* libAWDSupportConfig.dylib */,
+				3B77FE1A1B48B64D00CC6401 /* libAWDSupportFramework.dylib */,
+				3B77FE1B1B48B64D00CC6401 /* libAWDSupportInfo.dylib */,
+				3B77FE1C1B48B64D00CC6401 /* libAXSafeCategoryBundle.dylib */,
+				3B77FE1D1B48B64D00CC6401 /* libAXSpeechManager.dylib */,
+				3B77FE1E1B48B64D00CC6401 /* libBasebandManager.dylib */,
+				3B77FE1F1B48B64D00CC6401 /* libBasebandUSB.dylib */,
+				3B77FE201B48B64D00CC6401 /* libBBUpdaterDynamic.dylib */,
+				3B77FE211B48B64D00CC6401 /* libbsm.0.dylib */,
+				3B77FE221B48B64D00CC6401 /* libbsm.dylib */,
+				3B77FE231B48B64D00CC6401 /* libbz2.1.0.dylib */,
+				3B77FE241B48B64D00CC6401 /* libbz2.dylib */,
+				3B77FE251B48B64D00CC6401 /* libc++.1.dylib */,
+				3B77FE261B48B64D00CC6401 /* libc++.dylib */,
+				3B77FE271B48B64D00CC6401 /* libc++abi.dylib */,
+				3B77FE281B48B64D00CC6401 /* libc.dylib */,
+				3B77FE291B48B64D00CC6401 /* libcache.dylib */,
+				3B77FE2A1B48B64D00CC6401 /* libcharset.1.0.0.dylib */,
+				3B77FE2B1B48B64D00CC6401 /* libcharset.1.dylib */,
+				3B77FE2C1B48B64D00CC6401 /* libcharset.dylib */,
+				3B77FE2D1B48B64D00CC6401 /* libcmph.dylib */,
+				3B77FE2E1B48B64D00CC6401 /* libcommonCrypto.dylib */,
+				3B77FE2F1B48B64D00CC6401 /* libcompiler_rt.dylib */,
+				3B77FE301B48B64D00CC6401 /* libcopyfile.dylib */,
+				3B77FE311B48B64D00CC6401 /* libcorecrypto.dylib */,
+				3B77FE321B48B64E00CC6401 /* libCRFSuite.dylib */,
+				3B77FE331B48B64E00CC6401 /* libCRFSuite0.12.dylib */,
+				3B77FE341B48B64E00CC6401 /* libCTWakeCommandParserDynamic.dylib */,
+				3B77FE351B48B64E00CC6401 /* libcupolicy.dylib */,
+				3B77FE361B48B64E00CC6401 /* libcurses.dylib */,
+				3B77FE371B48B64E00CC6401 /* libdbm.dylib */,
+				3B77FE381B48B64E00CC6401 /* libDHCPServer.A.dylib */,
+				3B77FE391B48B64E00CC6401 /* libDHCPServer.dylib */,
+				3B77FE3A1B48B64E00CC6401 /* libdispatch.dylib */,
+				3B77FE3B1B48B64E00CC6401 /* libdispatch.dylib */,
+				3B77FE3C1B48B64E00CC6401 /* libdl.dylib */,
+				3B77FE3D1B48B64E00CC6401 /* libdns_services.dylib */,
+				3B77FE3E1B48B64E00CC6401 /* libdns_services_mdns.dylib */,
+				3B77FE3F1B48B64E00CC6401 /* libdyld.dylib */,
+				3B77FE401B48B64E00CC6401 /* libedit.2.dylib */,
+				3B77FE411B48B64E00CC6401 /* libedit.3.0.dylib */,
+				3B77FE421B48B64E00CC6401 /* libedit.3.dylib */,
+				3B77FE431B48B64E00CC6401 /* libedit.dylib */,
+				3B77FE441B48B64E00CC6401 /* libexslt.0.dylib */,
+				3B77FE451B48B64E00CC6401 /* libexslt.dylib */,
+				3B77FE461B48B64E00CC6401 /* libextension.dylib */,
+				3B77FE471B48B64E00CC6401 /* libform.5.4.dylib */,
+				3B77FE481B48B64E00CC6401 /* libform.dylib */,
+				3B77FE491B48B64E00CC6401 /* libgcc_s.1.dylib */,
+				3B77FE4A1B48B64E00CC6401 /* libgermantok.dylib */,
+				3B77FE4B1B48B64E00CC6401 /* libGestureServer.dylib */,
+				3B77FE4C1B48B64E00CC6401 /* libgll.dylib */,
+				3B77FE4D1B48B64E00CC6401 /* libH5Dynamic.dylib */,
+				3B77FE4E1B48B64E00CC6401 /* libheimdal-asn1.dylib */,
+				3B77FE4F1B48B64E00CC6401 /* libiconv.2.4.0.dylib */,
+				3B77FE501B48B64E00CC6401 /* libiconv.2.dylib */,
+				3B77FE511B48B64E00CC6401 /* libiconv.dylib */,
+				3B77FE521B48B64E00CC6401 /* libicucore.A.dylib */,
+				3B77FE531B48B64E00CC6401 /* libicucore.dylib */,
+				3B77FE541B48B64E00CC6401 /* libinfo.dylib */,
+				3B77FE551B48B64E00CC6401 /* libIOAccessoryManager.dylib */,
+				3B77FE561B48B64E00CC6401 /* libipconfig.dylib */,
+				3B77FE571B48B64E00CC6401 /* libipsec.A.dylib */,
+				3B77FE581B48B64E00CC6401 /* libipsec.dylib */,
+				3B77FE591B48B64E00CC6401 /* libkeymgr.dylib */,
+				3B77FE5A1B48B64E00CC6401 /* libktrace.dylib */,
+				3B77FE5B1B48B64E00CC6401 /* liblangid.dylib */,
+				3B77FE5C1B48B64E00CC6401 /* liblaunch.dylib */,
+				3B77FE5D1B48B64E00CC6401 /* liblockdown.dylib */,
+				3B77FE5E1B48B64E00CC6401 /* liblzma.5.dylib */,
+				3B77FE5F1B48B64E00CC6401 /* liblzma.dylib */,
+				3B77FE601B48B64E00CC6401 /* libm.dylib */,
+				3B77FE611B48B64E00CC6401 /* libmacho.dylib */,
+				3B77FE621B48B64E00CC6401 /* libMatch.1.dylib */,
+				3B77FE631B48B64E00CC6401 /* libMatch.dylib */,
+				3B77FE641B48B64E00CC6401 /* libmav_ipc_router_dynamic.dylib */,
+				3B77FE651B48B64E00CC6401 /* libmecab_em.dylib */,
+				3B77FE661B48B64E00CC6401 /* libmecabra.dylib */,
+				3B77FE671B48B64E00CC6401 /* libmis.dylib */,
+				3B77FE681B48B64E00CC6401 /* libMobileCheckpoint.dylib */,
+				3B77FE691B48B64E00CC6401 /* libMobileGestalt.dylib */,
+				3B77FE6A1B48B64E00CC6401 /* libMobileGestaltExtensions.dylib */,
+				3B77FE6B1B48B64E00CC6401 /* libncurses.5.4.dylib */,
+				3B77FE6C1B48B64E00CC6401 /* libncurses.dylib */,
+				3B77FE6D1B48B64E00CC6401 /* libnfshared.dylib */,
+				3B77FE6E1B48B64E00CC6401 /* libobjc.A.dylib */,
+				3B77FE6F1B48B64E00CC6401 /* libobjc.dylib */,
+				3B77FE701B48B64E00CC6401 /* libomadm.dylib */,
+				3B77FE711B48B64E00CC6401 /* libpoll.dylib */,
+				3B77FE721B48B64E00CC6401 /* libproc.dylib */,
+				3B77FE731B48B64E00CC6401 /* libprotobuf.dylib */,
+				3B77FE741B48B64E00CC6401 /* libpthread.dylib */,
+				3B77FE751B48B64E00CC6401 /* libQLCharts.dylib */,
+				3B77FE761B48B64E00CC6401 /* libremovefile.dylib */,
+				3B77FE771B48B64E00CC6401 /* libresolv.9.dylib */,
+				3B77FE781B48B64E00CC6401 /* libresolv.dylib */,
+				3B77FE791B48B64E00CC6401 /* librpcsvc.dylib */,
+				3B77FE7A1B48B64E00CC6401 /* libsandbox.1.dylib */,
+				3B77FE7B1B48B64E00CC6401 /* libsandbox.dylib */,
+				3B77FE7C1B48B64E00CC6401 /* libsp.dylib */,
+				3B77FE7D1B48B64E00CC6401 /* libsqlite3.0.dylib */,
+				3B77FE7E1B48B64E00CC6401 /* libsqlite3.dylib */,
+				3B77FE7F1B48B64E00CC6401 /* libstdc++.6.0.9.dylib */,
+				3B77FE801B48B64E00CC6401 /* libstdc++.6.dylib */,
+				3B77FE811B48B64E00CC6401 /* libstdc++.dylib */,
+				3B77FE821B48B64E00CC6401 /* libSystem.B.dylib */,
+				3B77FE831B48B64E00CC6401 /* libSystem.dylib */,
+				3B77FE841B48B64E00CC6401 /* libsystem_asl.dylib */,
+				3B77FE851B48B64E00CC6401 /* libsystem_blocks.dylib */,
+				3B77FE861B48B64E00CC6401 /* libsystem_c.dylib */,
+				3B77FE871B48B64E00CC6401 /* libsystem_configuration.dylib */,
+				3B77FE881B48B64E00CC6401 /* libsystem_coreservices.dylib */,
+				3B77FE891B48B64E00CC6401 /* libsystem_coretls.dylib */,
+				3B77FE8A1B48B64E00CC6401 /* libsystem_dnssd.dylib */,
+				3B77FE8B1B48B64E00CC6401 /* libsystem_info.dylib */,
+				3B77FE8C1B48B64E00CC6401 /* libsystem_kernel.dylib */,
+				3B77FE8D1B48B64E00CC6401 /* libsystem_m.dylib */,
+				3B77FE8E1B48B64E00CC6401 /* libsystem_malloc.dylib */,
+				3B77FE8F1B48B64E00CC6401 /* libsystem_network.dylib */,
+				3B77FE901B48B64E00CC6401 /* libsystem_networkextension.dylib */,
+				3B77FE911B48B64E00CC6401 /* libsystem_notify.dylib */,
+				3B77FE921B48B64E00CC6401 /* libsystem_platform.dylib */,
+				3B77FE931B48B64E00CC6401 /* libsystem_pthread.dylib */,
+				3B77FE941B48B64E00CC6401 /* libsystem_sandbox.dylib */,
+				3B77FE951B48B64E00CC6401 /* libsystem_stats.dylib */,
+				3B77FE961B48B64E00CC6401 /* libsystem_trace.dylib */,
+				3B77FE971B48B64E00CC6401 /* libTelephonyBasebandBulkUSBDynamic.dylib */,
+				3B77FE981B48B64E00CC6401 /* libTelephonyBasebandDynamic.dylib */,
+				3B77FE991B48B64E00CC6401 /* libTelephonyDebugDynamic.dylib */,
+				3B77FE9A1B48B64E00CC6401 /* libTelephonyIOKitDynamic.dylib */,
+				3B77FE9B1B48B64E00CC6401 /* libTelephonyUSBDynamic.dylib */,
+				3B77FE9C1B48B64E00CC6401 /* libTelephonyUtilDynamic.dylib */,
+				3B77FE9D1B48B64E00CC6401 /* libThaiTokenizer.dylib */,
+				3B77FE9E1B48B64E00CC6401 /* libtidy.A.dylib */,
+				3B77FE9F1B48B64E00CC6401 /* libtidy.dylib */,
+				3B77FEA01B48B64E00CC6401 /* libType2Streamer.dylib */,
+				3B77FEA11B48B64E00CC6401 /* libtzupdate.dylib */,
+				3B77FEA21B48B64E00CC6401 /* libunwind.dylib */,
+				3B77FEA31B48B64E00CC6401 /* libutil.dylib */,
+				3B77FEA41B48B64E00CC6401 /* libutil1.0.dylib */,
+				3B77FEA51B48B64E00CC6401 /* libWAPI.dylib */,
+				3B77FEA61B48B64E00CC6401 /* libxml2.2.dylib */,
+				3B77FEA71B48B64E00CC6401 /* libxml2.dylib */,
+				3B77FEA81B48B64E00CC6401 /* libxpc.dylib */,
+				3B77FEA91B48B64E00CC6401 /* libxslt.1.dylib */,
+				3B77FEAA1B48B64E00CC6401 /* libxslt.dylib */,
+				3B77FEAB1B48B64E00CC6401 /* libz.1.1.3.dylib */,
+				3B77FEAC1B48B64E00CC6401 /* libz.1.2.5.dylib */,
+				3B77FEAD1B48B64E00CC6401 /* libz.1.dylib */,
+				3B77FEAE1B48B64E00CC6401 /* libz.dylib */,
+				3B77FEAF1B48B64E00CC6401 /* LocalAuthentication.framework */,
+				3B77FEB01B48B64E00CC6401 /* MapKit.framework */,
+				3B77FEB11B48B64E00CC6401 /* MediaAccessibility.framework */,
+				3B77FEB21B48B64E00CC6401 /* MediaPlayer.framework */,
+				3B77FEB31B48B64F00CC6401 /* MediaToolbox.framework */,
+				3B77FEB41B48B64F00CC6401 /* MessageUI.framework */,
+				3B77FEB51B48B64F00CC6401 /* Metal.framework */,
+				3B77FEB61B48B64F00CC6401 /* MobileCoreServices.framework */,
+				3B77FEB71B48B64F00CC6401 /* MultipeerConnectivity.framework */,
+				3B77FEB81B48B64F00CC6401 /* NetworkExtension.framework */,
+				3B77FEB91B48B64F00CC6401 /* NewsstandKit.framework */,
+				3B77FEBA1B48B64F00CC6401 /* NotificationCenter.framework */,
+				3B77FEBB1B48B64F00CC6401 /* OpenAL.framework */,
+				3B77FEBC1B48B64F00CC6401 /* OpenGLES.framework */,
+				3B77FEBD1B48B64F00CC6401 /* PassKit.framework */,
+				3B77FEBE1B48B64F00CC6401 /* Photos.framework */,
+				3B77FEBF1B48B64F00CC6401 /* PhotosUI.framework */,
+				3B77FEC01B48B64F00CC6401 /* PushKit.framework */,
+				3B77FEC11B48B64F00CC6401 /* QuartzCore.framework */,
+				3B77FEC21B48B64F00CC6401 /* QuickLook.framework */,
+				3B77FEC31B48B64F00CC6401 /* SafariServices.framework */,
+				3B77FEC41B48B64F00CC6401 /* SceneKit.framework */,
+				3B77FEC51B48B64F00CC6401 /* Security.framework */,
+				3B77FEC61B48B64F00CC6401 /* Social.framework */,
+				3B77FEC71B48B64F00CC6401 /* SpriteKit.framework */,
+				3B77FEC81B48B64F00CC6401 /* StoreKit.framework */,
+				3B77FEC91B48B64F00CC6401 /* SystemConfiguration.framework */,
+				3B77FECA1B48B64F00CC6401 /* Twitter.framework */,
+				3B77FECB1B48B64F00CC6401 /* UIKit.framework */,
+				3B77FECC1B48B64F00CC6401 /* VideoToolbox.framework */,
+				3B77FECD1B48B64F00CC6401 /* WatchKit.framework */,
+				3B77FECE1B48B64F00CC6401 /* WebKit.framework */,
+				3B77FECF1B48B64F00CC6401 /* DTPerformanceSession.framework */,
+				3B77FED01B48B64F00CC6401 /* InterfaceBuilderKit.framework */,
+				3B77FED11B48B64F00CC6401 /* SenTestingKit.framework */,
+				2E567059FC7A14D3137928FC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E148506C70240F5999803649 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B582B732ACA59CC7F27F72E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1F8B909E73B8967ADA7A1704 /* Sources */,
+				A975D1CFF70021AF314556C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 9BA0082C2349A05C883FF88A /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB815681DA3DF236DF29CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 961BBD253B5B615F329EE89C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB4A909AE3AA6D704D0F3B3F;
+			productRefGroup = 5BF981AD8C865C212F468A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E148506C70240F5999803649 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F8B909E73B8967ADA7A1704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDA30B2242F5CA991F552E5 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41D8A43F2F9D20994E64F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		623E8162D99D63E866D9BE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E903C275B9D2262FC10A5C4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6ED907651246AD78FD69729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AF57EC6DAA99CA860EB64A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FBC16FB834C669AE7A50601C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B582B732ACA59CC7F27F72E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623E8162D99D63E866D9BE4E /* Debug */,
+				6ED907651246AD78FD69729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961BBD253B5B615F329EE89C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC16FB834C669AE7A50601C /* Debug */,
+				41D8A43F2F9D20994E64F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB815681DA3DF236DF29CF8 /* Project object */;
+}

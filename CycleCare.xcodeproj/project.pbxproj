@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38759836F48C49B9260F5112 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF8CEED1B26AB4A6EB90096 /* libPods.a */; };
+		3B375A961B4659AF00F87A63 /* CurrentCrashSites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B375A951B4659AF00F87A63 /* CurrentCrashSites.swift */; };
+		3B375A981B465CC900F87A63 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B375A971B465CC900F87A63 /* NetworkOperation.swift */; };
+		3B375A9C1B465E3900F87A63 /* CrashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B375A9B1B465E3900F87A63 /* CrashService.swift */; };
+		3B375A9E1B46638D00F87A63 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B375A9D1B46638D00F87A63 /* MasterViewController.swift */; };
+		3B77FFE01B48B9F100CC6401 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B77FFDF1B48B9F100CC6401 /* AVFoundation.framework */; };
+		3B77FFE21B48BD1200CC6401 /* Frog.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3B77FFE11B48BD1200CC6401 /* Frog.aiff */; };
+		3BE341211B47874C00114203 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE341201B47874C00114203 /* global.swift */; };
 		3BFD04A81B4649A100C62BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD04A71B4649A100C62BA2 /* AppDelegate.swift */; };
 		3BFD04AA1B4649A100C62BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD04A91B4649A100C62BA2 /* ViewController.swift */; };
 		3BFD04AD1B4649A100C62BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFD04AB1B4649A100C62BA2 /* Main.storyboard */; };
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B375A951B4659AF00F87A63 /* CurrentCrashSites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentCrashSites.swift; sourceTree = "<group>"; };
+		3B375A971B465CC900F87A63 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		3B375A9B1B465E3900F87A63 /* CrashService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashService.swift; sourceTree = "<group>"; };
+		3B375A9D1B46638D00F87A63 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3B77FFDF1B48B9F100CC6401 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3B77FFE11B48BD1200CC6401 /* Frog.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = Frog.aiff; path = ../../../Frog.aiff; sourceTree = "<group>"; };
+		3B77FFE31B48D76200CC6401 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3BE341201B47874C00114203 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
 		3BFD04A21B4649A100C62BA2 /* CycleCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFD04A61B4649A100C62BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFD04A71B4649A100C62BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,9 @@
 		3BFD04B71B4649A100C62BA2 /* CycleCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFD04BC1B4649A100C62BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFD04BD1B4649A100C62BA2 /* CycleCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleCareTests.swift; sourceTree = "<group>"; };
+		8B5B58B1527DB488258554F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9C483DCCA65B023B321410D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF8CEED1B26AB4A6EB90096 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B77FFE01B48B9F100CC6401 /* AVFoundation.framework in Frameworks */,
+				38759836F48C49B9260F5112 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063B4D49DDC1FEAABDA33E4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C483DCCA65B023B321410D1 /* Pods.debug.xcconfig */,
+				8B5B58B1527DB488258554F5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3BFD04991B4649A100C62BA2 = {
 			isa = PBXGroup;
 			children = (
 				3BFD04A41B4649A100C62BA2 /* CycleCare */,
 				3BFD04BA1B4649A100C62BA2 /* CycleCareTests */,
 				3BFD04A31B4649A100C62BA2 /* Products */,
+				063B4D49DDC1FEAABDA33E4C /* Pods */,
+				D0F618179473EE2AFE5309DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +109,19 @@
 		3BFD04A41B4649A100C62BA2 /* CycleCare */ = {
 			isa = PBXGroup;
 			children = (
+				3B77FFE31B48D76200CC6401 /* Roboto-Regular.ttf */,
 				3BFD04A71B4649A100C62BA2 /* AppDelegate.swift */,
 				3BFD04A91B4649A100C62BA2 /* ViewController.swift */,
 				3BFD04AB1B4649A100C62BA2 /* Main.storyboard */,
+				3B77FFE11B48BD1200CC6401 /* Frog.aiff */,
 				3BFD04AE1B4649A100C62BA2 /* Images.xcassets */,
 				3BFD04B01B4649A100C62BA2 /* LaunchScreen.xib */,
 				3BFD04A51B4649A100C62BA2 /* Supporting Files */,
+				3B375A951B4659AF00F87A63 /* CurrentCrashSites.swift */,
+				3B375A971B465CC900F87A63 /* NetworkOperation.swift */,
+				3B375A9B1B465E3900F87A63 /* CrashService.swift */,
+				3B375A9D1B46638D00F87A63 /* MasterViewController.swift */,
+				3BE341201B47874C00114203 /* global.swift */,
 			);
 			path = CycleCare;
 			sourceTree = "<group>";
@@ -112,6 +151,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D0F618179473EE2AFE5309DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B77FFDF1B48B9F100CC6401 /* AVFoundation.framework */,
+				AAF8CEED1B26AB4A6EB90096 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BFD04C11B4649A100C62BA2 /* Build configuration list for PBXNativeTarget "CycleCare" */;
 			buildPhases = (
+				A24F95F52FF424D9FB1FD448 /* Check Pods Manifest.lock */,
 				3BFD049E1B4649A100C62BA2 /* Sources */,
 				3BFD049F1B4649A100C62BA2 /* Frameworks */,
 				3BFD04A01B4649A100C62BA2 /* Resources */,
+				0FAF9245D898C4F15521DD9E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +245,7 @@
 				3BFD04AD1B4649A100C62BA2 /* Main.storyboard in Resources */,
 				3BFD04B21B4649A100C62BA2 /* LaunchScreen.xib in Resources */,
 				3BFD04AF1B4649A100C62BA2 /* Images.xcassets in Resources */,
+				3B77FFE21B48BD1200CC6401 /* Frog.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +258,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FAF9245D898C4F15521DD9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24F95F52FF424D9FB1FD448 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BFD049E1B4649A100C62BA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE341211B47874C00114203 /* global.swift in Sources */,
+				3B375A981B465CC900F87A63 /* NetworkOperation.swift in Sources */,
+				3B375A961B4659AF00F87A63 /* CurrentCrashSites.swift in Sources */,
+				3B375A9E1B46638D00F87A63 /* MasterViewController.swift in Sources */,
 				3BFD04AA1B4649A100C62BA2 /* ViewController.swift in Sources */,
 				3BFD04A81B4649A100C62BA2 /* AppDelegate.swift in Sources */,
+				3B375A9C1B465E3900F87A63 /* CrashService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +429,7 @@
 		};
 		3BFD04C21B4649A100C62BA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C483DCCA65B023B321410D1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CycleCare/Info.plist;
@@ -350,6 +440,7 @@
 		};
 		3BFD04C31B4649A100C62BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5B58B1527DB488258554F5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CycleCare/Info.plist;
@@ -411,6 +502,7 @@
 				3BFD04C31B4649A100C62BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BFD04C41B4649A100C62BA2 /* Build configuration list for PBXNativeTarget "CycleCareTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +511,7 @@
 				3BFD04C61B4649A100C62BA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
